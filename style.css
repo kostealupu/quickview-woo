@@ -1,0 +1,109 @@
+.cp_modal_wrapper.popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: auto;
+    max-width: 76%;
+    max-height: 90%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    vertical-align: middle;
+    border-radius: 12px;
+    z-index: 10001;
+    padding: 0px;
+}
+.popup-gallery {
+  display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 30%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+}
+.popup-gallery img {
+  width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin: auto;
+    vertical-align: middle;
+}
+.cp_modal_content.popup-content {
+    overflow-y: auto;
+}
+
+.popup-info-container {
+    display: block;
+    float: left;
+    width: 70%;
+}
+.popup-info {
+    display: block;
+    margin: 20px;
+}
+.popup-info h2 {
+    display: block;
+    margin-bottom: 12px;
+}
+.popup-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.popup-price {
+    display: inline-block;
+    font-size: 1.25rem;
+    color: #2A9D8F;
+}
+.popup-availability {
+    display: inline-block;
+    text-align: right;
+}
+.popup-version {
+    display: block;
+    margin-bottom: 12px;
+}
+.popup-version span {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.popup-addcart {
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    padding: 12px 0;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    width: 100%;
+}
+button#butons {
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    padding: 12px 0;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    width: 100%;
+}
+td.xoo-cp-pimg img {
+    height: auto;
+    max-width: 100%;
+}
+span#selekted {
+    background: #8c46e2;
+}
